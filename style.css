@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    //background-color: rgba(255, 255, 255, 0.8);
 }
 
 .menuBar {
@@ -51,13 +51,13 @@ body {
 
 .menuBar span {
     font-size: 16px;
-    color: rgb(55, 46, 136);
+    color: rgb(230, 230, 230);
     font-weight: 600;
     cursor: pointer;
 }
 
 .menuBar span:hover {
-    color: rgba(55, 46, 136, 0.49);
+    color: rgba(230, 230, 230, 0.49);
     transition: color 0.3s ease;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .contentTitle{
     font-size: 1.4rem;
-    color: rgb(55, 46, 136);
+    color: rgb(230, 230, 230);
     font-weight: 600;
 }
 
@@ -85,21 +85,41 @@ body {
     align-items: center;
     font-size: 4rem;
     font-weight: 600;
-    color: rgb(55, 46, 136); 
+    color: rgb(230, 230, 230); 
 }
 
 #btnContentLeft, #btnContentRight{
     font-size: 2rem;
-    color: rgb(55, 46, 136);
+    color: rgb(230, 230, 230);
+}
+
+#btnContentLeft:hover, #btnContentRight:hover{
+    color: rgba(230, 230, 230, 0.5);        
+    transition: 0.3s ease-in-out;
 }
 
 #textContent {
     width: 100%;
     padding: 0 400px;
     text-align: center;
+    color: rgb(230, 230, 230);
 }
 
 .carroselBtnIndices button{
     font-size: 0.6rem;
     margin: 0 5px;
+    color: rgb(230, 230, 230);
+}
+#createAccount{
+    padding: 15px 40px;
+    border-radius: 25px;
+    background-color: rgb(29, 23, 85);
+    font-size: 1rem;
+    color: rgb(230, 230, 230);
+}
+
+#createAccount:hover {
+    color: rgb(29, 23, 85);
+    background-color: rgba(230, 230, 230, 0.57);    
+    transition: 0.3s ease-in-out;
 }
