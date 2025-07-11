@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+button{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 body {
     width: 100dvw;
     height: 100dvh;
@@ -59,6 +66,40 @@ body {
     height: 100%;
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+}
+
+.contentTitle{
+    font-size: 1.4rem;
+    color: rgb(55, 46, 136);
+    font-weight: 600;
+}
+
+.carroselContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(55, 46, 136); 
+}
+
+#btnContentLeft, #btnContentRight{
+    font-size: 2rem;
+    color: rgb(55, 46, 136);
+}
+
+#textContent {
+    width: 100%;
+    padding: 0 400px;
+    text-align: center;
+}
+
+.carroselBtnIndices button{
+    font-size: 0.6rem;
+    margin: 0 5px;
 }
