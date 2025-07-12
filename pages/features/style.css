@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--secondary-color);
+}
+
+:root{
+    --primary-color: rgb(55, 46, 136);
+    --secondary-color: rgb(230, 230, 230);    
+    --dark-primary-color: rgb(26, 21, 68);
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: var(--primary-color);
+    font-family: "Montserrat", sans-serif;    
+    padding: 80px 200px 80px 0;
+    background-image: url("../../assets/backgroundDesert.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.principal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerNotebook img {
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+.containerDetails{
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerTitle{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    font-size: 1.2rem;
+}
+
+.containerExamples{
+    max-width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.containerExamples span{
+    font-size: 4rem;
+}
+
+.btnIndices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 260px;
+}
+
+.btnIndices button{
+    font-size: 0.6rem;
+}
+
